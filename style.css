@@ -1,0 +1,100 @@
+body {
+	font: 20px "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	color: #3b3b3b;
+}
+
+h1,h2 {
+	font-family: Georgia;
+}
+
+h1 {
+	border-bottom: 3px solid rgb(56, 206, 118);
+	background-color: #494916;
+	color: #ddd;
+	padding: 40px;	
+}
+
+h2 {
+	border-top: 1px solid rgb(48, 153, 74);
+	border-bottom: 30px solid rgb(52, 133, 36);
+	background-color: #DDD;
+	padding-left: 5px;
+	margin: 0 0 0 -15px;
+	font-weight: normal;
+}
+
+.secao {
+	background-color: rgb(126, 212, 123);
+	padding-left: 20px;
+	list-style: none;
+}
+
+label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+label:after {
+	content: ":";
+}
+
+a {
+	text-decoration:none;
+	color: rgb(58, 255, 8);
+}
+
+a:visited {
+	text-decoration:none;
+	color: #700;
+}
+
+a:hover {
+	text-decoration:none;
+	color: #fa0;
+}
+
+#menu {
+	margin: 0;
+}
+
+#menu ul, #menu li {
+	display: inline;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#menu .ativo {
+	background-color: #ddd;
+}
+
+.vcard {
+	padding: 5px;
+}
+
+.url, .email {
+	display: block;
+}
+
+.photo {
+	float: right;
+	margin-right: 20%;
+}
+
+#footnote {
+	border-top: 1px dashed #aaa;
+	padding: 5px;
+	font: 75% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
+	
+}
+
+#footnote li {
+	list-style-type: none;
+	margin-top: 3px;}
+
+	footer{
+.lista-redes .icon-instagram {
+  background: none;
+    
+}
+	}
